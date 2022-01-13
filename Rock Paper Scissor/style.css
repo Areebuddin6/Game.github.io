@@ -1,0 +1,152 @@
+html {
+    font-size: 65%
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+h3 {
+    color:rgb(25, 2, 91)
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(43, 176, 243), white);
+    text-align: center;
+    font-size: 2rem;
+}
+
+#winner-container {
+    font-size: 5rem;
+    border: red 5px solid;
+    margin-bottom: 1rem;
+    background-color: white;
+    padding: 1rem;
+    float: center;
+    margin-top: 0rem;
+}
+
+#winner-div {
+    color:rgb(180, 9, 123);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#scoreboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
+#user-score1 {
+    float: right;
+}
+
+.scoreboard-container {
+    border: red 4px solid;
+    margin: 1rem;
+    margin-bottom: 40px;
+    padding: 1rem;
+    background-color: white;
+}
+
+#selector {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+.choice-selector {
+    border-radius:50%;
+    height:7rem;
+    margin: 2rem;
+    user-select: none;
+}
+
+.choice {
+    height: 7rem;
+    border-radius: 50%;
+}
+
+#winner {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    color:rgb(40, 4, 185);
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+#display-message {
+    display: none;
+    color:rgb(67, 22, 180);
+    font-size: 3rem;
+    font-weight: bold;
+    border:rgb(145, 4, 157) 4px solid;
+    background-color:white;
+    padding: 0.5rem;
+
+}
+
+.choice-container {
+    background-color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 3rem;
+    border:rgb(25, 2, 91) 4px solid;
+}
+
+#center-div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 900px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 501px ) {
+    html {
+        font-size: 30%;
+    }
+    
+    #center-div {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .choice {
+        height: 9rem;
+    }
+
+    .choice-selector {
+        height: 9rem;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #name {
+        height: 2rem;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    html {
+        font-size: 200%;
+    }
+
+    #name {
+        width: 15rem;
+    }
+}
