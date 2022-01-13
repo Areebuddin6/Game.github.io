@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Rock Paper Scissor Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Areebuddin">
+        <link rel="stylesheet" href="style.css" type = "text/css">
+        <link rel="icon" href="Rock Paper Scissor Icon/RPS Icon.png" type="image/png" >
+    </head>
+    <body>
+        <h1> Rock Paper Scissor Game </h1>
+        <div id = "winner-div">
+            <div id = "winner-container">Winner:<span id = "winner"></span></div>
+        </div>
+        <div id = "center-div">
+        <div class = "choice-container" id = "comp-container"> Computer choice: <div class = 'height'><img src ="" id = "computer-choice" class = "choice"></div></div>
+        <div class = "choice-container" id = "user-container"> <span id = "user-choice-displayer">Your</span> choice: <div class = "height" id = "user-choice-height"><img src ="" id = "user-choice" class = "choice"></div></div> 
+        </div>
+        <div>
+        <div>
+            <div>
+                <h3> Please enter your name:</h3>
+                <input id = "name" onkeyup = 'displayName()' onchange = 'displayName()'></input>
+            </div>
+            <div id = "scoreboard">
+                <div class = "scoreboard-container" id = "user-score1">
+                    Computer Score
+                    <div id = "comp-score"> </div>
+                </div>
+                <div class = "scoreboard-container" >
+                    <span id = "nameDisplay">Your score</span>
+                    <div id = "user-score"> </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <span id = "display-message"></span>
+        </div>
+        <div id = "selector">
+            <div id = "paper">
+                <img value = 0 class = "choice-selector" src = "Rock Paper Scissor Icon\Paper.png">
+            </div>
+            <div id = "rock">
+                 <img value = 1 class = "choice-selector" src = "Rock Paper Scissor Icon\Rock 2.jpg">
+            </div>
+            <div id = "scissor">
+                 <img value = 2  class = "choice-selector" src = "Rock Paper Scissor Icon\Scissor.jpg">
+            </div>
+        </div>
+        </div>
+        <script src = "main.js"></script>
+    </body>
+</html>
